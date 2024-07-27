@@ -1,0 +1,28 @@
+*,
+body {
+    background-color: #1f2937;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icons {
+    display: flex;
+    gap: 70px;
+}
+
+.title {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 50px;
+}
