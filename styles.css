@@ -1,11 +1,22 @@
-*,
 body {
     background-color: #1f2937;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
+
+@font-face {
+    font-family: 'DigitalDream';
+    src: url('fonts/DIGITALDREAM.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 .header {
     display: flex;
@@ -25,4 +36,41 @@ body {
     font-size: 25px;
     text-align: center;
     padding-left: 50px;
+}
+
+/*the hub portion */
+
+.hub {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.player,
+.info,
+.computer {
+    text-align: center;
+}
+
+.playerScore,
+.computerScore,
+.gameInfo {
+    background-color: lightgray;
+    border: 2px solid black;
+    font-family: 'DigitalDream', sans-serif;
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.playerScore,
+.computerScore {
+    padding-left: 30px;
+    padding-right: 30px;
 }
