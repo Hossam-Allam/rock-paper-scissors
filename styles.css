@@ -74,3 +74,30 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/*game portion */
+
+.gameIcons {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#rock:hover path,
+#paper:hover path,
+#scissors:hover path {
+    fill: lightcoral;
+
+}
