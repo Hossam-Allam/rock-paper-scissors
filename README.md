@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="rpc.png" alt="Logo" width="80" height="80">
+    <img src="rpc.png" alt="Logo" width="500" height="300">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Rock Paper Scissors</h3>
 
   <p align="center">
     Welcome to the Rock-Paper-Scissors online game! This classic hand game is usually played between two people, where each player simultaneously forms one of three shapes with an outstretched hand. The possible shapes are "rock" (a fist), "paper" (an open hand), and "scissors" (a fist with the index and middle fingers extended, forming a V).
